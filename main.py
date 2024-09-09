@@ -2,7 +2,7 @@ from weather import Weather
 
 def main()-> None:
     weather = Weather() 
-    print(weather.man_weather_data())
+    weather.weather()
 
 if __name__ == "__main__":
     main()
